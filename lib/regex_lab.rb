@@ -4,7 +4,7 @@ end
 
 def words_starting_with_un_and_ending_with_ing(text)
   binding.pry
-  text.match(/\bun\w*ing/)
+  text.match(/\bun\w*ing/)? true : false
 end
 
 def words_five_letters_long(text)
